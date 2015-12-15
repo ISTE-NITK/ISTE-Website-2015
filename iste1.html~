@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang "en">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>    
+    <title>ISTE NITK Chapter</title>
+    <!--css-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+
+<body>
+    
+    <nav>
+        <div class="nav-wrapper grey darken-2">    
+          <a href="#" class="brand-logo"><img src=logo.jpg style="width: 75px; height: 50px" ></img></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"><a href="iste1.html"><font color="white">About Us</a></font></li>
+            <li><a href="blog.html"><font color="white">ISTE Blog</a></font></li>
+          </ul>
+        </div>
+    </nav>
+  
+  <div class="parallax-container">
+        <div class="parallax"><img src=logo.jpg"></div>
+  </div>
+    
+    <!--<div class="row">
+    
+        <div class= "col s2 push-s2 yellow darken-4">
+        <font color="white", size= 4 ><center>Final years</font>        
+        </div>
+        
+        <div class= "col s2 push-s2 yellow darken-3">
+        <font color="white", size= 4 ><center>Third years</font>
+        </div>
+        
+        <div class= "col s2 push-s2 yellow darken-2">
+        <font color="white", size= 4 ><center>Second years</font>
+        </div>
+        
+        <div class="col s2 push-s2 yellow darken-1">
+        <font color="white", size= 4 ><center>Alumni</font>
+        </div>
+        
+    </div>-->
+    <!--<div class="row">
+       <div class="col s2 push-s2">
+            <center>
+            <ul class="light">
+					    <li>Abhijith KC</li>
+                        <li>Abygale Sasha Pereira</li>
+					    <li>Aditya Jain</li>
+                        <li>Arshita Basavaraj</li>
+					    <li>Arun Kumar R</li>
+					    <li>Deepak Kushwaha</li>
+                        <li>Divyasanu Pandey</li>
+					    <li>Eureka Pai K</li>
+					    <li>Gaurav Agarwal</li>
+					    <li>Gaurav Choudhary</li>
+					    <li>Hrushikesh M Joshi</li>
+					    <li>Koduru Anusha</li>
+					    <li>Mukund YR</li>
+                        <li>Neha Madhulika</li>
+					    <li>Nikhil Kumar</li>
+					    <li>Priyadarshini S</li>
+					    <li>Priyal Vijaywargiya</li>
+					    <li>RB Prashanth</li>
+					    <li>Rajsekhar Kumar Nath</li>
+					    <li>Rishyashring Raman Iyer</li>
+					    <li>Samruddhi Ganvir</li>
+                        <li>Sanjay Sevella</li>
+					    <li>Sanket Gawande</li>
+					    <li>Shreya Shetty</li>
+					    <li>Shreyans Jain</li>
+					    <li>Shubham Dixit</li>
+					    <li>Siddharth Jain</li>
+					    <li>Snehal Jauhri</li>
+					    <li>Sumanth Depuri</li>
+					    <li>Vandhana Comandur</li>
+                </ul>
+            </div>
+        </div>-->
+    <div class="row">
+        <div class="col s4 push-s4">
+    <ul class="collapsible popout" data-collapsible="accordion">
+        
+        <li>
+            <div class="collapsible-header red darken-4"; align="center><font color="white"><i class="material-icons">expand_more</i>Final years</font></div>
+            <div class="collapsible-body">                  
+                <ul class="light"><center>
+					    <li>Abhijith KC</li>
+                        <li>Abygale Sasha Pereira</li>
+					    <li>Aditya Jain</li>
+                        <li>Arshita Basavaraj</li>
+					    <li>Arun Kumar R</li>
+					    <li>Deepak Kushwaha</li>
+                        <li>Divyasanu Pandey</li>
+					    <li>Eureka Pai K</li>
+					    <li>Gaurav Agarwal</li>
+					    <li>Gaurav Choudhary</li>
+					    <li>Hrushikesh M Joshi</li>
+					    <li>Koduru Anusha</li>
+					    <li>Mukund YR</li>
+                        <li>Neha Madhulika</li>
+					    <li>Nikhil Kumar</li>
+					    <li>Priyadarshini S</li>
+					    <li>Priyal Vijaywargiya</li>
+					    <li>RB Prashanth</li>
+					    <li>Rajsekhar Kumar Nath</li>
+					    <li>Rishyashring Raman Iyer</li>
+					    <li>Samruddhi Ganvir</li>
+                        <li>Sanjay Sevella</li>
+					    <li>Sanket Gawande</li>
+					    <li>Shreya Shetty</li>
+					    <li>Shreyans Jain</li>
+					    <li>Shubham Dixit</li>
+					    <li>Siddharth Jain</li>
+					    <li>Snehal Jauhri</li>
+					    <li>Sumanth Depuri</li>
+					    <li>Vandhana Comandur</li>
+                </ul>
+            </div>
+        </li>   
+        <li>
+            <div class="collapsible-header red darken-2"><center><font color="white">Third years</font></div>
+            <div class="collapsible-body">blah</div>
+        </li>
+        <li>
+            <div class="collapsible-header red darken-1"><center><font color="white">Second years</font></div>
+            <div class="collapsible-body">blah</div>
+        </li>
+        <li>
+            <div class="collapsible-header red"><center><font color="white">Alumni</font></div>
+            <div class="collapsible-body">blah</div>
+        </li>
+    </ul>
+    </div></div></div>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</body>
+
+
+</html>
+
+
