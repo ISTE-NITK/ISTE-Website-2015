@@ -6129,7 +6129,7 @@ button.btn-floating {
       height: 1px; }
     .dropdown-content li > a, .dropdown-content li > span {
       font-size: 16px;
-      color: #26a69a;
+      color: black;
       display: block;
       line-height: 22px;
       padding: 14px 16px; }
@@ -7809,7 +7809,7 @@ select {
       transition: background-color .3s;
       border-radius: 50%; }
       .slider .indicators .indicator-item.active {
-        background-color: #4CAF50; }
+        background-color: #808080; }
 
 /* ==========================================================================
    $BASE-PICKER

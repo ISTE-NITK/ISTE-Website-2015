@@ -1,165 +1,439 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
+<html lang "en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>    
+    <title>ISTE | NITK Chapter</title>
+    <!--css-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!--Make sure page contains valid doctype at the very top!-->
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
-<body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+<body>    
+    <nav class="grey darken-3" role="navigation">
+        <div class="nav-wrapper container">
+              <ul class="right hide-on-med-and-down">
+                <li><a class='dropdown-button btn grey darken-3' href="index.html" data-activates='dropdown1'>HOME</a>
+                    <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#!">About</a></li>
+                    <li><a href="#!">SIGs</a></li>
+                    <li><a href="#!">Members</a></li>
+                    <li><a href="#!">Events</a></li></ul>
+               <!-- </ul><a href="index.html"><font color="white">HOME-->
+                </li>
+                <li><a class='btn grey darken-3' href="http://www.istenitk.wordpress.com" target="_blank"><font color="white">BLOG</a></li>
+              </ul>
+              <ul id="nav-mobile" class="side-nav">
+                <li><a href="index.html"><font color="grey">HOME</a></li>
+                <li><a href="http://www.istenitk.wordpress.com" target="_blank"><font color="grey">BLOG</a></li>
+              </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <br><br>
+            </div>
+        </div>
+        <div class="parallax"><img class="responsive-img" src="logo2.jpg" alt="ISTE Logo"<!-- height="800px" width="300px"-->></div>
     </div>
-  </nav>
+    <div class="container ">
+        <p class="flow text"><h3>Welcome to ISTE, NITK Chapter!</h3><font color="black"></p>
+        <p class="light">
+        The Indian Society for Technical Education is a national, professional, non-profit making society registered under the Societies Registration Act of 1860. The major objective of the ISTE is to assist and contribute in the production and development of top quality professional engineers and technicians needed by industries and other organisations. Being the only national organisation of educators in the field of engineering and technology, ISTE effectively contributes in various missions of the Union Government.</p>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
-      </div>
+        <p class="light">
+        ISTE, NITK Chapter is one of the oldest technical clubs established in the college. Over the years, ISTE, NITK Chapter has grown and has contributed to various college activities. A plethora of ingenious events are conducted by its members throughout the year, some of which have attained a cult status and are cherished by its members and participants alike. ISTE generally begins its recruitment of new members in early August. After two long weeks of interviews and discussions, new Executive Members are recruited into the club. </p>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
+    <li class="divider"></li>
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <h2 class="header center teal-text text-lighten-2"><span class="grey-text text-darken-4"><font color="black">Special Interest Groups</span></h2>
+                <div class="row center">
+                    <h5 class="header col s12 light"><span class="grey-text text-darken-4">Jack of all trades, or master of one? At ISTE, we give you the freedom to explore and exploit our choice of SIGs and receive dedicated guidance from seasoned veterans at every endeavour.</span></h5>
+                </div>
+                <br><br>
+            </div>
         </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
+        <div class="parallax"><img src="sigs2.jpg" alt="SIGS"></div>
     </div>
-  </div>
 
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer class="page-footer teal">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+        <div class="section">
+            <div class="row">
+                <div class="col s3">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons"><span class="red-text text-lighten-2">computer</span></i></h2>
+                        <h5 class="center">Crypt</h5>
+                        <p class="light">This SIG does a good job of generating interest amongst its members in computer science related concepts by conducting seminars, hands-on coding sessions and working on interdisciplinary projects.</p>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons"><span class="red-text text-lighten-2">flash_on</span></i></h2>
+                        <h5 class="center">Charge</h5>
+                        <p class="light">Microcontrollers, Robotics, AtMega, MSP, LEDs! If these words are 'music' to your ears, its time to 'sync' with ISTE's Charge SIG. With some innovative seminars and hands-on workshops, this SIG has soldered itself to the hearts of many. With some of our projects being given a thumbs up by reputed electronics firms, we aim to embed an enthusiasm towards tronics in NITK. We also take pride in actively contributing to the mega event 'Technites', during ENGINEER.</p>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons"><span class="red-text text-lighten-2">settings</span></i></h2>
+                        <h5 class="center">Clutch</h5>
+                        <p class="light">Ever wondered what goes on in the making of a supercar which zooms past by? If you nurture a desire to unravel the knowledge hidden beneath any hood, we the Clutch SIG of ISTE are the ones you're looking for! This SIG focuses on design and dynamics of vehicles, and conducts workshops for the understanding of key components involved in Auto R&D.</p>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons"><span class="red-text text-lighten-2">settings</span></i></h2>
+                        <h5 class="center">Civil</h5>
+                        <p class="light">The aim of the SIG is to familiarize the members with the various practices followed in designing of various structures. The members will work to develop new and creative designs for various facilities like hospitals, hostels, residential buildings, or some facilities required in an institutional campus like ours. The SIG is based on designing structures, which is a core field in Civil Engineering.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+        <div class="section">
+            <div class="row">
+                <div class="col s4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons"><span class="red-text text-lighten-2">attach_money</span></i></h2>
+                        <h5 class="center">Credit</h5>
+                        <p class="light">Stocks, shares, stakeholders, marketing strategy, Wall Street, equity, Net Present Value. These terms are music to the ears of the members of Credit SIG, a group of people with phenomenal business acumen who share with the rest of us, the mysteries of the all powerful Market. Knowledge exchange programs from this SIG are a treat to the curious mind.</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons"><span class="red-text text-lighten-2">create</span></i></h2>
+                        <h5 class="center">Chronicle</h5>
+                        <p class="light">Amidst the crowd of Aristotles and Newtons, ISTE also has an outlet for the Shakespeares who give words to the brilliant thoughts of the club, thereby giving it life. Although people think that it's limited to making irrational word puns, Chronicle has had great success with the ISTE publication Novus Scientifica, penning the unsolvable mysteries, designing grand game shows and spreading great ideas of science, art and technology.</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons"><span class="red-text text-lighten-2">color_lens</span></i></h2>
+                        <h5 class="center">Create</h5>
+                        <p class="light">Imagine an empty theatre. Imagine a party with no people. Imagine an ISTE event with no participants...The third one is impossible, thanks to ISTE's Create. Their contribution is not limited just to splashing colours on canvas digitally, they also make wacky customised videos for every event that appeals to the drama queen in each of you and puts ISTE on the radar.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
 
+    <div class="row">
+        <div class="col s8">
+            <div class="slider hoverable">
+                <ul class="slides">
+                    <li>
+                        <img src="members.jpg"> <!-- random image -->
+                        <div class="caption center-align">
+                            <h3></h3>
+                            <h5 class="light grey-text text-lighten-3"></h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="members2.jpg"> <!-- random image -->
+                        <div class="caption left-align">
+                            <h3></h3>
+                            <h5 class="light grey-text text-lighten-3"></h5>
+                    </div>
+                    </li>
+                    <li>
+                        <img src="members.jpg"> <!-- random image -->
+                        <div class="caption right-align">
+                            <h3></h3>
+                            <h5 class="light grey-text text-lighten-3"></h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="members3.jpg"> <!-- random image -->
+                        <div class="caption center-align">
+                            <h3></h3>
+                            <h5 class="light grey-text text-lighten-3"></h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+   
+        <div class="col s4">
+            <p><h4>&nbsp;&nbsp;&nbsp;Meet the members</h4></p>
+            <ul class="collapsible popout z-depth-2" data-collapsible="accordion">                    
+            <li>
+                <div class="collapsible-header grey darken-3"><font color="white">FINAL YEARS</font>
+                </div>
+                <div class="collapsible-body">                  
+                    <ul class="light"><center>
+            			<li>Abhijith KC</li>
+                        <li>Abygale Sasha Pereira</li>
+            		    <li>Aditya Jain</li>
+                        <li>Arshita Basavaraj</li>
+        				<li>Arun Kumar R</li>
+            			<li>Deepak Kushwaha</li>
+                        <li>Divyasanu Pandey</li>
+            		    <li>Eureka Pai K</li>
+        			    <li>Gaurav Agarwal</li>
+                        <li>Gaurav Choudhary</li>
+        				<li>Hrushikesh M Joshi</li>
+            		    <li>Koduru Anusha</li>
+                	    <li>Mukund YR</li>
+                        <li>Neha Madhulika</li>
+            		    <li>Nikhil Kumar</li>
+            		    <li>Priyadarshini S</li>
+        			    <li>Priyal Vijaywargiya</li>
+                        <li>RB Prashanth</li>
+            		    <li>Rajsekhar Kumar Nath</li>
+            	        <li>Rishyashring Raman Iyer</li>
+        			    <li>Samruddhi Ganvir</li>
+                        <li>Sanjay Sevella</li>
+                        <li>Sanket Gawande</li>
+                	    <li>Shreya Shetty</li>
+            		    <li>Shreyans Jain</li>
+        			    <li>Shubham Dixit</li>
+    				    <li>Siddharth Jain</li>
+      				    <li>Snehal Jauhri</li>
+                        <li>Sumanth Depuri</li>
+            		    <li>Vandhana Comandur</li>
+                    </ul>
+                </div>
+            </li>   
+            <li>
+                <div class="collapsible-header grey darken-1"><font color="white">THIRD YEARS</font>
+                </div>
+                <div class="collapsible-body">
+                    <ul class="light"><center>
+                        <li>Abhishek Shanthkumar</li>                                
+                        <li>Aditya Jain</li>
+                        <li>Aeshwrya Sweta Panda</li>
+                        <li>Ajin Tom</li>
+                        <li>Akankshya Kar</li>
+                        <li>Akshay Sangat</li>
+                        <li>Anirudha CS</li>
+                        <li>Apoorva Mishra</li>
+                        <li>Ashutosh Kshirsagar</li>
+                        <li>Aswanth Sreekumar</li>
+                        <li>Avinash Rao</li>
+                        <li>Chavi Singal</li>
+                        <li>Chirag Jamadagni</li>
+                        <li>Chirasvi HR</li>
+                        <li>Codanda Devaiah Monappa</li>
+                        <li>Deepti Rajagopal</li>
+                        <li>Dhruv Paul</li>
+                        <li>Dishan Srinivasa Rao</li>
+                        <li>Divya Vempati</li>
+                        <li>Fuzail Mujahid Khan</li>
+                        <li>Gala Jainam Navin</li>
+                        <li>IK Vibhav</li>
+                        <li>Jayasooryan KV</li>                                
+                        <li>Manasa Gadiyar</li>
+                        <li>Muhammed Danish Khan</li>
+                        <li>Naveena Chinta</li>
+                        <li>Nikhil Jayanth</li>
+                        <li>Nikhil VC</li>
+                        <li>Nithin Holla K</li>
+                        <li>Ohileshwar Itagi</li>
+                        <li>Prabhu Dayal Sahoo</li>
+                        <li>Rachana Danavadi A</li>
+                        <li>Rajat Hindiholi</li>
+                        <li>Sachin Bhat</li>
+                        <li>Saurabh Sachan</li>
+                        <li>Shriddha</li>
+                        <li>Shrishti AK</li>
+                        <li>Subhasmita Sahoo</li>
+                        <li>Suprith SB</li>
+                        <li>Syed Muthahar</li>
+                        <li>Vaibhav Vijan</li>
+                        <li>Vaishnavi Chauhan</li>
+                        <li>Vikram Singh Tomar</li>
+                        <li>Vishakha SR</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header grey darken-3"><font color="white">SECOND YEARS</font></div>
+                <div class="collapsible-body">
+                    <ul class="light"><center>
+                        <li>Abhijay Kumar Pandit</li>
+                                <li>Aditya Nishtala</li>
+                                <li>Aishwarya Sanjeev Kumar</li>
+                                <li>Alok Aryan</li>
+                                <li>Aneesh Goel</li>
+                                <li>Aniket Rege</li>
+                                <li>Anikethan H V U</li>
+                                <li>Ashritha</li>
+                                <li>Bhargav Kale</li>
+                                <li>Binita</li>
+                                <li>Deepak Devara</li>
+                                <li>Divya N</li>
+                                <li>atin Nayak</li>
+                                <li>Jishnu Chatterjee</li>
+                                <li>Kavya Atmakuri</li>
+                                <li>Kevin George/li>
+                                <li>Krish Hiren Vadodaria</li>
+                                <li>Likhita C</li>
+                                <li>M Punith/li>
+                                <li>Mahesh Bhat H/li>
+                                <li>Manisha Jhawar</li>
+                                <li>Navya R S/li>
+                                <li>Nihar Joshi</li>
+                                <li>Nischita Kaza</li>
+                                <li>P Sai Seshnag/li>
+                                <li>Parikshit</li>
+                                <li>Prajwal Kailas</li>
+                                <li>Pralay S</li>
+                                <li>Pranav M</li>
+                                <li>rasad Kamath Hli>
+                                <li>Prateek Wadhwani</li>
+                                <li>Rashmi P/li>
+                                <li>Ravikant Narayan/li>
+                                <li>Rimitha</li>
+                                <li>Rishit</li>
+                                <li>Ritesh Waykole</li>
+                                <li>Samarth Mishra</li>
+                                <li>Saranya</li>
+                                <li>Satwik Pandit</li>
+                                <li>Saumya Gupta/li>
+                                <li>Shiv Shankar Sukumaran</li>
+                                <li>Shrinidhi</li>
+                                <li>Sonali Maruti Naik</li>
+                                <li>Sreelakshmi S</li>
+                                <li>Sudheendra</li>
+                                <li>Sukanya Sundaram/li>
+                                <li>Ujwal Mishra</li>
+                                <li>Vignesh R</li>
+                                <li>Vikas</li>
+                                <li>Yashaswini Karanth</li>
+                            </center>   
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header grey darken-1"><font color="white">ALUMNI</font></div>
+                        <div class="collapsible-body">
+                            <ul class="light"><center>
+                                <li>
+                                    Aditya Nair
+                                </li>
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+                                <li>
+                                    Aman Gupta
+                                </li>
 
-  </body>
+                                <li>
+                                    Anjali Nelliat
+                                </li>
+
+                                <li>
+                                    Anmol Varma
+                                </li>
+
+                                <li>
+                                    Ashesh Khandelwal
+                                </li>
+
+                                <li>
+                                    Chetan Dugar
+                                </li>
+
+                                <li>
+                                    Gourav Shet
+                                </li>
+
+                                <li>
+                                    Jim Aldon D'Souza
+                                </li>
+
+                                <li>
+                                    Joshua Neeraj
+                                </li>
+
+                                <li>
+                                    Kratika Gupta
+                                </li>
+
+                                <li>
+                                    Mehul Kothari
+                                </li>
+
+                                <li>
+                                    Oshim Jain
+                                </li>
+
+                                <li>
+                                    Palash Acharya
+                                </li>
+
+                                <li>
+                                    Parushya NewIndian
+                                </li>
+
+                                <li>
+                                    Piyush Rai
+                                </li>
+
+                                <li>
+                                    Priya Rao
+                                </li>
+
+                                <li>
+                                    Raghav Ishwar
+                                </li>
+
+                                <li>
+                                    Samarth Goel
+                                </li>
+
+                                <li>
+                                    Sanam Lakhwara
+                                </li>
+
+                                <li>
+                                    Shilpa Podilla
+                                </li>
+
+                                <li>
+                                    Shweta Srivastava
+                                </li>   
+
+                                <li>
+                                    Soumita Mondal
+                                </li>
+
+                                <li>
+                                    Srimayi
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+    </div></div></div></div></div></div>
+
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="right-align">
+                <h5 class="white-text">ISTE NITK CHAPTER</h5>
+                <p class="white-text"> Convenor : Snehal Jauhri</p>
+                <p class="white-text"> Address: NITK SURAHTKAL , Main Building, ISTE Office</p>
+                <p class="white-text"> Phone: +918197766783</p>
+                <p class="white-text"> Email: istenitk@gmail.com</p>
+            </div>
+            <div align="right"><div class="white-text">This website has been visited <img src="http://simplehitcounter.com/hit.php?uid=1991135&f=16777215&b=0" border="0" height="18" width="83" alt="web counter"></img> times</div></div>
+            <div class="footer-copyright">
+                    <div class="right-align">Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+            </div>            
+        </div>
+    </footer>    
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+</body>
 </html>
+
+
