@@ -17,6 +17,15 @@
 
 <body>    
    
+	<!-- Plugin initialization -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+   	 // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $	('.modal-trigger').leanModal();
+ 	 });
+	</script>
+
+
     <!-- NAVBAR -->
     <div class="navbar-fixed">
     <nav class="grey darken-3">
@@ -163,12 +172,18 @@
    
         <div class="col s4" id = "members">
             <p><h4>&nbsp;&nbsp;&nbsp;Meet the members</h4></p>
-            <ul class="collapsible popout z-depth-2" data-collapsible="accordion">                    
+            
+            <ul>                    
             <li>
-                <div class="collapsible-header grey darken-3"><font color="white">FINAL YEARS</font>
-                </div>
-                <div class="collapsible-body">                  
-                    <ul class="light"><center>
+                
+                <!-- Modal Trigger -->
+  				<center><a class="waves-effect waves-light btn modal-trigger" href="#modal1">FINAL YEARS</a></center>
+  				<!-- Modal Structure -->
+				  <div id="modal1" class="modal">
+				    <div class="modal-content">
+				      <center><h4>FINAL YEARS</h4></center>
+				      <br>
+				      <ul class="light"><center>
             			<li>Abhijith KC</li>
                         <li>Abygale Sasha Pereira</li>
             		    <li>Aditya Jain</li>
@@ -200,12 +215,19 @@
                         <li>Sumanth Depuri</li>
             		    <li>Vandhana Comandur</li>
                     </ul>
-                </div>
+				      
+				    </div>
+				    </div>
+
             </li>   
+            <li><br></li>
             <li>
-                <div class="collapsible-header grey darken-1"><font color="white">THIRD YEARS</font>
-                </div>
-                <div class="collapsible-body">
+                <center><a class="waves-effect waves-light btn modal-trigger" href="#third">THIRD YEARS</a></center>
+                <div id="third" class="modal">
+				    <div class="modal-content">
+				      <center><h4>THIRD YEARS</h4></center>
+				      <br>
+               
                     <ul class="light"><center>
                         <li>Abhishek Shanthkumar</li>                                
                         <li>Aditya Jain</li>
@@ -251,13 +273,21 @@
                         <li>Vaishnavi Chauhan</li>
                         <li>Vikram Singh Tomar</li>
                         <li>Vishakha SR</li>
-                    </ul>
+                    
+                </div>
                 </div>
             </li>
-            <li>
-                <div class="collapsible-header grey darken-3"><font color="white">SECOND YEARS</font></div>
-                <div class="collapsible-body">
-                    <ul class="light"><center>
+            <li><br></li>
+             <li>
+                
+                <!-- Modal Trigger -->
+  				<center><a class="waves-effect waves-light btn modal-trigger" href="#second">SECOND YEARS</a></center>
+  				<!-- Modal Structure -->
+				  <div id="second" class="modal">
+				    <div class="modal-content">
+				      <center><h4>SECOND YEARS</h4></center>
+				      <br>
+				      <ul class="light"><center>
                         <li>Abhijay Kumar Pandit</li>
                                 <li>Aditya Nishtala</li>
                                 <li>Aishwarya Sanjeev Kumar</li>
@@ -270,10 +300,10 @@
                                 <li>Binita</li>
                                 <li>Deepak Devara</li>
                                 <li>Divya N</li>
-                                <li>atin Nayak</li>
+                                <li>Jatin Nayak</li>
                                 <li>Jishnu Chatterjee</li>
                                 <li>Kavya Atmakuri</li>
-                                <li>Kevin George/li>
+                                <li>Kevin George</li>
                                 <li>Krish Hiren Vadodaria</li>
                                 <li>Likhita C</li>
                                 <li>M Punith/li>
@@ -282,39 +312,50 @@
                                 <li>Navya R S/li>
                                 <li>Nihar Joshi</li>
                                 <li>Nischita Kaza</li>
-                                <li>P Sai Seshnag/li>
+                                <li>P Sai Seshnag</li>
                                 <li>Parikshit</li>
                                 <li>Prajwal Kailas</li>
                                 <li>Pralay S</li>
                                 <li>Pranav M</li>
-                                <li>rasad Kamath Hli>
+                                <li>rasad Kamath H<li>
                                 <li>Prateek Wadhwani</li>
                                 <li>Rashmi P/li>
-                                <li>Ravikant Narayan/li>
+                                <li>Ravikant Narayan</li>
                                 <li>Rimitha</li>
                                 <li>Rishit</li>
                                 <li>Ritesh Waykole</li>
                                 <li>Samarth Mishra</li>
                                 <li>Saranya</li>
                                 <li>Satwik Pandit</li>
-                                <li>Saumya Gupta/li>
+                                <li>Saumya Gupta</li>
                                 <li>Shiv Shankar Sukumaran</li>
                                 <li>Shrinidhi</li>
                                 <li>Sonali Maruti Naik</li>
                                 <li>Sreelakshmi S</li>
                                 <li>Sudheendra</li>
-                                <li>Sukanya Sundaram/li>
+                                <li>Sukanya Sundaram</li>
                                 <li>Ujwal Mishra</li>
                                 <li>Vignesh R</li>
                                 <li>Vikas</li>
                                 <li>Yashaswini Karanth</li>
-                            </center>   
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header grey darken-1"><font color="white">ALUMNI</font></div>
-                        <div class="collapsible-body">
-                            <ul class="light"><center>
+                            </center>
+                            </ul>
+				      
+				    </div>
+				    </div>
+
+            </li>
+                    <li><br></li>
+             <li>
+                
+                <!-- Modal Trigger -->
+  				<center><a class="waves-effect waves-light btn modal-trigger z-depth-2" href="#alumni">Alumni</a></center>
+  				<!-- Modal Structure -->
+				  <div id="alumni" class="modal">
+				    <div class="modal-content">
+				      <center><h4>ALUMNI</h4></center>
+				      <br>
+				      <ul class="light"><center>
                                 <li>
                                     Aditya Nair
                                 </li>
@@ -410,6 +451,11 @@
                         </div>
                     </li>
                 </ul>
+				      
+				    </div>
+				    </div>
+
+            </li>
     </div></div></div></div></div></div>
 
     <footer class="page-footer grey darken-3">
