@@ -11,6 +11,14 @@ nav .brand-logo {
   color: #444;
 }
 
+
+ul.light {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+
 p {
   line-height: 2rem;
 }
